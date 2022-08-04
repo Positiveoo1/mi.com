@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    color: #757575;
+    background: #F5F5F5;
+}
+.main {
+    width: 100%;
+    height: 100vh;
+
+}
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: #212121;
+}
+.collect {
+    list-style: none;
+    display: flex;
+}
+.items {
+    padding: 10px;
+    color: #B0B0B0;
+    font-family: sans-serif;
+    position: relative;
+    left: 60px;
+    top: 5px;
+}
+
+.wrapper {
+    width: 100%;
+    height: 550px;
+}
+
+.wrapper {
+    background: url(./qizcha.jpg) no-repeat center/cover;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 35%;
+    background-color: #FD4900;
+    position: relative;
+    left: 50px;
+    top: 20px;
+    cursor: pointer;
+}
+.circle h1 {
+    font-family: sans-serif;
+    color: #FFF;
+    font-size: 35px;
+    text-align: center;
+
+}
+
+.collect1 {
+    display: flex;
+    list-style: none;
+}
+.items1 {
+    padding: 30px;
+    color: #616161;
+    font-family: sans-serif;
+    font-weight: 700;
+
+    position: relative;
+    left: 550px;
+    bottom: 50px;
+    transition: 1s;
+}
+.items1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.name {
+    font-family: sans-serif;
+    font-weight: 5;
+    color: #212121;
+    font-size: 60px;
+    position: relative;
+    left: 180px;
+
+}
+.about {
+    color: #212121;
+    font-family: sans-serif;
+    width: 450px;
+    position: relative;
+    left: 180px;
+    top: 30px;
+}
+.wr_btn {
+    width: 20%;
+    height: 35px;
+    position: relative;
+    left: 180px;
+    top: 100px;
+    border: 1px solid black;
+    outline: none;
+    background-color: #93C1E5;
+
+}
+
+.three {
+    display: flex;
+    align-items:  center;
+    justify-content: flex-end;
+    position: relative;
+    right: 70px;
+
+
+
+
+    
+}
+
+.three:hover {
+    cursor: pointer;
+
+}
+.one {
+     width: 35%;
+    position: relative;
+    top: 65px;
+    left: 60px; 
+
+
+}
+.two {
+    width: 35%;
+    position: relative;
+    left: 820px;
+    top: 35px;
+}
+
+.star {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #616161;
+    text-align: center;
+    position: relative;
+    top: 45px;
+
+}
+.bigOne {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 70px;
+    top: 80px;
+}
+.big1 {
+    position: relative;
+    right: 5px;
+}
+.big3 {
+    position: relative;
+    left: 5px;
+    
+}
+.big4 {
+    position: relative;
+    top: 294px;
+    right: 607px;
+}
+.videos {
+     position: relative;
+    top: 190px; 
+ }
+.vid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: #616161;
+    text-align: center;
+}
+.four {
+    width: 35%;
+    position: relative;
+    top: 15px;
+    left: 60px;
+}
+.five {
+    width: 35%;
+    position: relative;
+    left: 820px;
+    bottom: 15px;
+} 
+.videos img {
+    position: relative;
+    left: 55px;
+    top: 35px;
+    padding: 10px;
+}
+.footer_up {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: 350px;
+}
+.smth {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #424242;
+    font-weight: 400;
+    font-size: 18px;
+    position: relative;
+    left: 40px;
+}
+.a_bit {
+    font-family: sans-serif;
+    color: #424242;
+    font-size: 12px;
+    position: relative;
+    left: 38px;
+}
+.footer_inp {
+    width: 25%;
+    height: 30px;
+    position: relative;
+    left: 300px;
+    bottom: 35px;
+    outline: none;
+    border: 1px solid #424242;
+    background-color: #fff;
+    padding-left: 20px;
+}
+.follow {
+    font-family: sans-serif;
+    color: #424242;
+    position: relative;
+    left: 800px;
+    bottom: 60px;
+}
+.a_long {
+    color: #424242;
+    font-size: 12px;
+    position: relative;
+    left: 800px;
+    bottom: 55px;
+    font-family: sans-serif;
+}
+.icons {
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    width: 200px;
+    transition: .5s;
+}
+
+.fa-facebook-f {
+    font-size: 18px;
+    color: #757575;
+    position: relative;
+    left: 1020px;
+    bottom: 90px;
+    
+}
+.fa-facebook-f:hover {
+    color: #424242;
+}
+.fa-youtube {
+    font-size: 18px;
+    color: #757575;
+    position: relative;
+    left: 1020px;
+    bottom: 90px;
+}
+.fa-youtube:hover {
+    color: #424242;
+}
+.fa-instagram {
+    font-size: 18px;
+    color: #757575;
+    position: relative;
+    left: 1020px;
+    bottom: 90px;
+}
+.fa-instagram:hover {
+    color: #424242;
+}
+.fa-twitter {
+    font-size: 18px;
+    color: #757575;
+    position: relative;
+    left: 1020px;
+    bottom: 90px;
+}
+.fa-twitter:hover {
+    color: #424242;
+}
+.fa-tiktok {
+    font-size: 18px;
+    color: #757575;
+    position: relative;
+    left: 1020px;
+    bottom: 90px;
+}
+.fa-tiktok:hover {
+    color: #424242;
+}
+
+
+
+.footer {
+    width: 100%;
+    height: 351px;
+    background-color: #212121;
+    position: relative;
+    top: 325px;
+}
+.sup {
+    color: #B0B0B0;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+    top:  40px;
+    left: 80px;
+}
+.collection1 {
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 2; 
+   
+}
+.list_items {
+    position: relative;
+    left: 80px;
+    top: 60px;
+    
+
+}
+.about_us {
+    font-size: 14px;
+    font-weight: 300;
+    font-family: sans-serif;
+    color: #B0B0B0;
+    position: relative;
+    left: 300px;
+    bottom: 120px;
+}
+.collection2 {
+    list-style: none;
+    font-size: 14px;
+    line-height: 2;
+}
+.list_items1 {
+    position: relative;
+    left: 300px;
+    bottom: 95px;
+}
+.mid {
+    font-size: 14px;
+    color: #B0B0B0;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+    left: 470px;
+    bottom: 275px;
+}
+.collection3 {
+    list-style: none;
+    font-size: 14px;
+    line-height: 2;
+}
+.list_items2 {
+    position: relative;
+    left: 470px;
+    bottom: 255px;
+}
+
+.looong {
+    position: relative;
+    bottom: 250px;
+}
+.lasts {
+    color: #B0B0B0;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 300;
+    position: relative;
+    left: 80px;
+    bottom: 220px;
+}
+.others {
+    position: relative;
+    left: 1000px;
+    bottom: 420px;
+}
+.phone_nb {
+    color: #B0B0B0;
+    font-family: sans-serif;
+
+}
+.another_nb {
+    color: #B0B0B0;
+    font-family: sans-serif;
+}
+.day {
+    color: #B0B0B0;
+    font-family: sans-serif;
+    position: relative;
+    top: 4px;
+}
+.chat {
+    width: 150px;
+    height: 30px;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: #212121;
+    position: relative;
+    top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
